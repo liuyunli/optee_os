@@ -10,7 +10,7 @@ build:
     - export PATH=/usr/local/bin:$PATH  # clang
     - export CROSS_COMPILE32="ccache arm-linux-gnueabihf-"
     - export CROSS_COMPILE64="ccache aarch64-linux-gnu-"
-    - export CFG_DEBUG_INFO=n
+    #- export CFG_DEBUG_INFO=n
     - export CFG_WERROR=y
     - export START=$(date +%s)
     - export PROJ=$ORG_NAME-$REPO_NAME
